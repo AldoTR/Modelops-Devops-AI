@@ -23,7 +23,7 @@ def main():
         # Hacer la llamada al servidor externo para predecir la métrica
         predicted_efficiency = make_prediction(hours_worked)
         
-        # Calcular la métrica relacionada con el costo de, viaje
+        # Calcular la métrica relacionada con el costo de viaje
         efficiency_result = calculate_efficiency(hours_worked)
         
         st.write(f'Métrica de de costo de viaje {hours_worked} horas trabajadas: {efficiency_result}')
