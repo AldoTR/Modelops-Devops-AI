@@ -1,5 +1,7 @@
+import json
 import streamlit as st
 import requests
+import numpy as np
 
 SERVER_URL = 'https://linear-model-service-aldotr.cloud.okteto.net/v1/models/linear-model:predict'
 
